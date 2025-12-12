@@ -1,0 +1,30 @@
+[project]
+name = "mlops-zoomcamp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.42.8",
+    "fastparquet>=2024.11.0",
+    "hyperopt>=0.2.7",
+    "mlflow>=3.7.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "xgboost>=3.1.2",
+]
+
+[dependency-groups]
+dev = [
+    "bpython>=0.26",
+    "catppuccin-jupyterlab>=0.2.4",
+    "catppuccin[pygments]>=2.5.0",
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
+    "jupyter-lsp>=2.3.0",
+    "jupyterlab-lsp>=5.2.0",
+    "jupyterlab-pygments>=0.3.0",
+    "python-lsp-server[all]>=1.14.0",
+    "uv>=0.9.17",
+]
