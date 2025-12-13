@@ -27,5 +27,6 @@ dev = [
     "jupyterlab-pygments>=0.3.0",
     "pyqt5>=5.15.11",
     "python-lsp-server[all]>=1.14.0",
+    "setuptools<81",
     "uv>=0.9.17",
 ]

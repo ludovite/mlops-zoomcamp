@@ -1971,6 +1971,7 @@ dev = [
     { name = "jupyterlab-pygments" },
     { name = "pyqt5" },
     { name = "python-lsp-server", extra = ["all"] },
+    { name = "setuptools" },
     { name = "uv" },
 ]
 
@@ -1998,6 +1999,7 @@ dev = [
     { name = "jupyterlab-pygments", specifier = ">=0.3.0" },
     { name = "pyqt5", specifier = ">=5.15.11" },
     { name = "python-lsp-server", extras = ["all"], specifier = ">=1.14.0" },
+    { name = "setuptools", specifier = "<81" },
     { name = "uv", specifier = ">=0.9.17" },
 ]
 
